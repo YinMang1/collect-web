@@ -1,0 +1,11 @@
+{
+  "name": "collect-web",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/YinMang1/collect-web.git",
+  "author": "xiabotao",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.44.1"
+  }
+}
