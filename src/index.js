@@ -1,1 +1,3 @@
-console.log('this is my world!')
+module.exports = {
+    hello:'this is my world'
+}
