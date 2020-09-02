@@ -4,16 +4,17 @@ const fulfilled = 'fulfilled'
 const rejectd = 'rejected'
 Class Promise {
     constructor(executor) {
-        this.status = pending
+        this.status = pending;
+        function resolve(value) {
+
+        }
+        function reject(value) {
+
+        }
+        function then(fulfillCall,rejectCall) {
+            
+        }
     }
-    function resolve(value) {
-
-    }
-    function reject(value) {
-
-    }
-
-
 }
 
 
