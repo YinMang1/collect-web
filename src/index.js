@@ -5,6 +5,7 @@ const rejectd = 'rejected'
 Class Promise {
     constructor(executor) {
         this.status = pending;
+        this.value = undefined;
         function resolve(value) {
 
         }
@@ -12,8 +13,10 @@ Class Promise {
 
         }
         function then(fulfillCall,rejectCall) {
-            
+
         }
+
+        executor()
     }
 }
 
